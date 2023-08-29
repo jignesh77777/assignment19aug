@@ -1,0 +1,783 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d4fe6f71-68ce-4813-a4fd-945cd2cffb3a",
+   "metadata": {},
+   "source": [
+    "ASSIGNMENT 1\n",
+    "\n",
+    "Q.1 Declare two variables, x and y, and assign them integer values. Swap the values of these variables without using any temporary variable.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f0a39109-efe2-480c-b6f5-a0505305ab37",
+   "metadata": {},
+   "source": [
+    "Ans.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "88a92928-e1b1-4eee-b2f5-0cf762edfdca",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=10                                          #declare first variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "e0b1ef58-f200-4a3e-a0ab-84fc6e1c0aae",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=20                                         #declare second variable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "1d43bc16-ea1a-432e-a26d-88076f85bb20",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=x+y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "8b7e7019-a107-4c58-9f2d-083d2808ae6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "a077954c-99cb-419a-b8ad-a564aa1a5785",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=x-y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "f574baae-77b7-4541-97eb-de0a4854a63d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "y                                             #swapping the value of x to y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "e899ae09-cd4a-469e-aec1-9559f061c3d0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=x-y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "3f89ce26-6152-4257-9849-05cf5776fdff",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x                                                # swapping the vaue of y to x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bc786e13-62d1-4b80-a796-64599f881a2f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2a04a939-bfc6-4a39-bd7f-e2a7a745f90c",
+   "metadata": {},
+   "source": [
+    "Q.2 Create a program that calculates the area of a rectangle. Take the length and width as inputs from the user and store them in variables. Calculate and display the area."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "28239aef-fe31-4ecd-8445-6dcee529c12b",
+   "metadata": {},
+   "source": [
+    "Ans."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "091fc23a-2a62-496f-9724-42339526d9b3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "write the length of the rectangle:  25\n"
+     ]
+    }
+   ],
+   "source": [
+    "length= int(input(\"write the length of the rectangle: \"))          # the functionn return the length from the user"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "48bbfd64-ef6b-4df5-8bf6-2dc6ad9acf89",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "write the width of the rectangle:  35\n"
+     ]
+    }
+   ],
+   "source": [
+    "width = int(input(\"write the width of the rectangle: \"))           # the functionn return the width from the user"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "2bbdfdae-e52a-458f-b157-06cced81ffac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Area  = length*width "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "3ccd316b-6525-4715-a98b-bf4899da5681",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "875"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Area"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "08b11b1a-8dda-4c1f-bb24-d49540109e38",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "output=(\"The lenght of area of the rectangle is \" ,Area ) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "5b65ae62-5cbd-4c01-80c0-ec0deacbeca7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('The lenght of area of the rectangle is ', 875)"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "output"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ecab44b6-7b98-4b47-a0c2-57f7c5414a58",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0971b1e5-9b56-4166-85b1-1de8026d8bed",
+   "metadata": {},
+   "source": [
+    "Q.3 Write a Python program that converts temperatures from Celsius to Fahrenheit. Take the temperature in Celsius as input, store it in a variable, convert it to Fahrenheit, and display the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "05358714-3f25-40d2-9a56-dda3adb932bc",
+   "metadata": {},
+   "source": [
+    "Ans."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "41ec5a1d-084b-4495-89b2-96b2851c5d68",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the temperature in celsius:  28\n"
+     ]
+    }
+   ],
+   "source": [
+    "temperature= float(input(\"enter the temperature in celsius: \"))          #return the user input value of temperature"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "1e032225-dd32-4917-901d-83bedce462a4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fahrenheit= (1.8 * temperature)+32\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "4e6af66b-99c2-442b-97cb-ad5b3931c821",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "82.4"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fahrenheit"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "2ce5f95d-4e8d-4287-8634-26d336076d0f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "output=(\"The temperature from celsius to fahrenheit is \" ,fahrenheit) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "31c5cae4-a51c-4df8-ab79-1b0099204806",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('The temperature from celsius to fahrenheit is ', 82.4)"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "output"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2eea826f-60bf-431e-a973-938da37a7e63",
+   "metadata": {},
+   "source": [
+    "TOPIC: String Based Questions"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2d65a7e2-99ce-46d8-869a-245965b53d0a",
+   "metadata": {},
+   "source": [
+    "Q.1 Write a Python program that takes a string as input and prints the length of the string"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0fea1342-7076-4ccc-ac6e-5bae3aebdd40",
+   "metadata": {},
+   "source": [
+    "Ans."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "a237b151-38b8-41e6-8baf-0a5b8de2280f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the value of the string:_ \"PWSKILLS\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "string=str(input(\"Enter the value of the string:_\"))           # get the value of the string"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "f7ef7e52-10c7-4423-aabe-72274c0f00e9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "calculate_length= len(string)                                            # calculate the length of the string\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "6d1649d2-1f80-4ac8-97d4-f36fba83ba7d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "calculate_length"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "028cec43-e62f-4f52-b51b-3d534e25fdc0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "output=(\"The lenght of the string is \" ,calculate_length)               #shows the result"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "e346fdc8-f2b6-44d5-b1ab-da79929dd2e0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('The lenght of the string is ', 10)"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "output"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f7333359-613a-401c-8fd0-6c7954493135",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5a0944ae-0cc0-4bd2-a734-08f7b65149e9",
+   "metadata": {},
+   "source": [
+    "Q.2 Create a program that takes a sentence from the user and counts the number of vowels (a, e, i, o, u) in the string.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "291d0e61-948f-4c7c-9e7d-b53f34adb612",
+   "metadata": {},
+   "source": [
+    "Ans."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "d7ac1893-d65e-4c46-8f6f-02d4d510e145",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the charater of the sentence : i like the enviorment of pwskills\n"
+     ]
+    }
+   ],
+   "source": [
+    "string= input(\"Enter the charater of the sentence :\")                     # gives the value of the string form a users"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "56cea171-d3e8-4a4a-a5ab-172ff0cd8259",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "vowels=0                                                                  # firstly we gave a value to vowels is 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "7f8365c0-41c6-4f7a-a1b0-f27ef3af71a9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for i in string:\n",
+    "    if (i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):\n",
+    "        vowels=vowels+1                                                     #finding the vowels in sentence "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "4729d2e3-0cbf-4b86-8afc-c23a53893512",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the number of the vowels  are: 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"the number of the vowels  are:\",vowels)                              #print the values of the vowels"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0edc82df-c102-4bdb-a93c-999d5d2eddca",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cea2b3a9-0b8e-47f5-b892-bba1a1eb6a73",
+   "metadata": {},
+   "source": [
+    "Q.3 Given a string, reverse the order of characters using string slicing and print the reversed string."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "828e433b-7f85-4932-a26d-91f5f70bb8c2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "new_string=\"JIGNESH RAJPUT\"                                    #create a string "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "21a0944f-5ae9-47b6-b9b7-f50f0a5c4ae6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'TUPJAR HSENGIJ'"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "new_string[::-1]                                               #using string slicing reverse the order of string"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cbb42fa7-9e72-462a-8318-ebee085eeff7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fc876aa8-0a25-421f-adb6-5669b37e7a32",
+   "metadata": {},
+   "source": [
+    "4. Write a program that takes a string as input and checks if it is a palindrome\n",
+    "(reads the same forwards and backwards)."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "007827ca-16a5-48ce-923d-401f54523628",
+   "metadata": {},
+   "source": [
+    "Ans."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "374ffdca-1e2e-4940-be9c-8a3576804db0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def is_palindrome(s):\n",
+    "    s = s.replace(\" \", \"\").lower()\n",
+    "    return s == s[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "c1135495-3683-49c6-a462-e011b240301f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a string:  my name is JIGNESH\n"
+     ]
+    }
+   ],
+   "source": [
+    "input_string = input(\"Enter a string: \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "579c8db3-6592-4319-9b43-5162cee7d459",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "It's not a palindrome.\n"
+     ]
+    }
+   ],
+   "source": [
+    "if is_palindrome(input_string):\n",
+    "    print(\"It's a palindrome!\")\n",
+    "else:\n",
+    "    print(\"It's not a palindrome.\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "85579527-6942-4b0a-9751-912980bde465",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "430a6974-9a86-474c-90c9-475504e09f05",
+   "metadata": {},
+   "source": [
+    "5. Create a program that takes a string as input and removes all the spaces from\n",
+    "it. Print the modified string without spaces."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a53a3572-0aad-4441-9c86-4c12361fb533",
+   "metadata": {},
+   "source": [
+    "Ans."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "8889c514-9684-4dad-b9bd-86d915ba05f4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter a string:  PWSKILLS  is  the  best  way  to   learn   technology   \n"
+     ]
+    }
+   ],
+   "source": [
+    "input_string = input(\"Enter a string: \")                                      #  Get input from the user"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "b602fbcc-bf4c-4eb0-b7b7-7e81d1514c3e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'PWSKILLSisthebestwaytolearntechnology'"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "input_string.replace(\" \", \"\")                                                 # replace function remove all the whitespaces of the string"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 97,
+   "id": "b63f8729-1e3b-4d05-870c-a4be5ce22c32",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "eea1f036-3942-43eb-9569-7cef7b16bcbb",
+   "metadata": {},
+   "source": [
+    "                                                                        #THANK YOU"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "aff5dbc7-ce37-4feb-a437-762f147106a0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
